@@ -1,0 +1,16 @@
+{
+  "proxies": {
+    "description": "Check naming and flow rules",
+    "rules": {
+      "CheckProxyEndpointName": "error",
+      "CheckBasePath": "warn"
+    }
+  },
+  "policies": {
+    "description": "Enforce naming conventions",
+    "rules": {
+      "CheckPolicyName": "error",
+      "CheckForHardCodedValues": "warn"
+    }
+  }
+}
